@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+  }
+  body{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+      url("New-Delhi-India-War-Memorial-arch-Sir.webp");
+    background-repeat: no-repeat;
+    background-size: cover; */
+  }
+  
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15)),
+      url("India\ Gate\ New\ Delhi.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    position: fixed;
+  }
+  
+  nav .logo {
+    width: 25%;
+    text-align: center;
+    /*background: red;*/
+  }
+  
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav .menu a:hover{
+    color: #28ecc5;
+  }
+  
+  main {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #a4d7cc;
+  }
+  
+  section h3 {
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px black;
+  }
+  
+  section h1 {
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    font-weight: 700;
+    text-shadow: 2px 1px 5px black;
+    text-transform: uppercase;
+  }
+  
+  section p {
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  section a {
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+  }
+  
+  section .btnone {
+    /*background: #00b894;*/
+    background: #fff;
+    color: #000;
+  }
+  
+  .btnone:hover {
+    background: #00b894;
+    color: white;
+  }
+  
+  .change_content:after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    color: #003db8;
+  }
+  
+  @keyframes changetext {
+    0% {
+      content: "Darjeeling";
+    }
+    20% {
+      content: "Agra";
+    }
+    35% {
+      content: "Jaipur";
+      color: rgb(243, 89, 115);
+    }
+    60% {
+      content: "kerala";
+    }
+    80% {
+      content: "delhi";
+    }
+    100% {
+      content: "Mumbai";
+    }
+  }
+
+  footer{
+    padding-top: 40px;
+    color: rgb(28, 186, 99);
+    background-color: #a4d7cc;
+  }
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  .socials li{
+    margin: 0 10px;
+  }
+  .socials a{
+    text-decoration: none;
+    color: #ffff;
+  }
+  .socials a i{
+    font-size: 2rem;
+    transition: color .4s ease;
+  }
+  .footer-bottom{
+    padding: 20px 0;
+  }
+  #facebook:hover{
+    color: #003db8;
+  }
+  #instagram:hover{
+    color:#bc1888;
+  }
+  #linkedin:hover{
+    color:#1ea2da;
+  }
+  #youtube:hover{
+    color:#dd3c3c;
+  }
+  #google:hover{
+    color:#fd1919;
+  }
+  #twitter:hover{
+    color:#23b6f0;
+  }
+  .taj-img {
+    height: 500px;
+    width: 500px;
+    margin-left: 40px;
+  }
+  div .info {
+    float: center;
+    margin: 80px;
+    margin-top: 30px;
+    width: 700px;
+    height: 350px;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: rgb(180, 194, 145);
+    border-radius: 20px;
+  }
+  .info p {
+    font-weight: 100;
+    font-size: larger;
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(78, 79, 77);
+  }
+  .info p b {
+    color: rgb(253, 147, 147);
+  }
+  .first {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    justify-content: space-between;
+  }
+  
+  .second {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
